@@ -10,7 +10,7 @@ url="https://github.com/isage/nxengine-evo"
 license=('GPL3')
 depends=(sdl2_mixer sdl2_image sdl2_ttf)
 makedepends=(cmake libpng libjpeg)
-source=("https://github.com/isage/nxengine-evo/archive/v${_ver}.tar.gz"
+source=("https://github.com/nxengine/nxengine-evo/archive/v${_ver}.tar.gz"
         "https://www.cavestory.org/downloads/cavestoryen.zip"
         "https://github.com/nxengine/translations/releases/download/v${_langver}/all.zip")
 sha256sums=('db9b78b0c4005959ab8f3a6a05c02d86e764e6593cdd11a2178c581bb03a0699'
