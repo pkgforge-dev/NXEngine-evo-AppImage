@@ -1,10 +1,10 @@
 <div align="center">
 
-# NXEngine-evo-AppImage 🐧
+# NXEngine-evo-AppImage-Enhanced 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/NXEngine-evo-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/NXEngine-evo-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/NXEngine-evo-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/NXEngine-evo-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/NXEngine-evo-AppImage)](https://github.com/pkgforge-dev/NXEngine-evo-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/NXEngine-evo-AppImageEnhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/NXEngine-evo-AppImageEnhanced/releases/latest)
+[![CI Build Status](https://github.com//pkgforge-dev/NXEngine-evo-AppImageEnhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/NXEngine-evo-AppImageEnhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/NXEngine-evo-AppImageEnhanced)](https://github.com/pkgforge-dev/NXEngine-evo-AppImageEnhanced/releases/latest)
 
 <p align="center">
   <img src="https://github.com/nxengine/nxengine-evo/blob/master/platform/xdg/org.nxengine.nxengine_evo.png" width="128" />
@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/NXEngine-evo-AppImage/releases/latest) | [Click here](https://github.com/nxengine/nxengine-evo) |
+| [Click here](https://github.com/pkgforge-dev/NXEngine-evo-AppImageEnhanced/releases/latest) | [Click here](https://github.com/nxengine/nxengine-evo) |
 
 </div>
 
