@@ -13,6 +13,27 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-make-aur-package nxengine-evo
+#make-aur-package nxengine-evo
 
 # If the application needs to be manually built that has to be done down here
+echo "Making nightly build of NXEngine-evo..."
+echo "---------------------------------------------------------------"
+REPO="https://github.com/nxengine/nxengine-evo"
+VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
+git clone "$REPO" ./NXEngine-evo
+echo "$VERSION" > ~/version
+
+cd ./NXEngine-evo
+mkdir -p build && cd build
+cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+    -DCMAKE_INSTALL_PREFIX="/usr"
+make -j$(nproc)
+
+cd ../
+cp -r "../CaveStory/data/" "./"
+cp "../CaveStory/Doukutsu.exe" "./"
+cp -r "../data/" "./"
+./build/nxextract
+make install
