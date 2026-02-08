@@ -28,6 +28,7 @@ VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 git clone "$REPO" ./NXEngine-evo
 echo "$VERSION" > ~/version
 
+mkdir -p ./AppDir/bin
 cd ./NXEngine-evo
 wget https://www.cavestory.org/downloads/cavestoryen.zip
 wget https://github.com/nxengine/translations/releases/download/v1.14/all.zip
