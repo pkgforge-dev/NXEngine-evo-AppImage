@@ -40,10 +40,8 @@ cmake .. \
     -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
     -DCMAKE_INSTALL_PREFIX="/usr"
 make -j$(nproc)
-
-cd ../
 cp -r "../CaveStory/data/" "./"
 cp "../CaveStory/Doukutsu.exe" "./"
 cp -r "../data/" "./"
-./build/nxextract
+./nxextract
 make install
