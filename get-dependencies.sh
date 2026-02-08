@@ -46,4 +46,5 @@ cp -r "../data/" "./"
 ./nxextract
 make install
 cd ..
+mv -v /usr/bin/nxengine-evo ../AppDir/bin
 mv -v /usr/share/nxengine ../AppDir/bin
