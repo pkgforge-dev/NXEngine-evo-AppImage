@@ -45,6 +45,6 @@ cp ../CaveStory/Doukutsu.exe .
 cp -r ../data/ .
 ./nxextract
 make install
-cd ..
-mv -v /usr/bin/nxengine-evo ../AppDir/bin
-mkdir -p ../AppDir/share && mv -v /usr/share/nxengine ../AppDir/share/
+#cd ..
+#mv -v /usr/bin/nxengine-evo ../AppDir/bin
+#mkdir -p ../AppDir/share && mv -v /usr/share/nxengine ../AppDir/share/
