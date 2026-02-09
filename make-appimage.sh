@@ -12,7 +12,7 @@ export DESKTOP=/usr/share/applications/org.nxengine.nxengine_evo.desktop
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/*
+quick-sharun ./AppDir/bin/nxengine-evo
 #echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
