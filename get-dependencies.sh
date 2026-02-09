@@ -40,9 +40,9 @@ cmake .. \
     -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
     -DCMAKE_INSTALL_PREFIX="/usr"
 make -j$(nproc)
-cp -r "../CaveStory/data/" "./"
-cp "../CaveStory/Doukutsu.exe" "./"
-cp -r "../data/" "./"
+cp -r ../CaveStory/data/ .
+cp ../CaveStory/Doukutsu.exe .
+cp -r ../data/ .
 ./nxextract
 make install
 cd ..
