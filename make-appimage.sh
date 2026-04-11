@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 VERSION=$(pacman -Q nxengine-evo-git | awk '{print $2; exit}') # example command to get version of application here
 export ARCH VERSION
 export OUTPATH=./dist
-export ADD_HOOKS="self-updater.bg.hook"
+export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export APPNAME="Cave Story NX-evo"
 export ICON=/usr/share/icons/hicolor/256x256/apps/org.nxengine.nxengine_evo.png
