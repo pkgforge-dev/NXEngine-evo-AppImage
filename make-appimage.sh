@@ -5,7 +5,7 @@ set -eu
 ARCH=$(uname -m)
 export ARCH
 export OUTPATH=./dist
-export ADD_HOOKS="self-updater.bg.hook"
+export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export APPNAME="Cave Story NX-evo"
 export ICON=https://raw.githubusercontent.com/nxengine/nxengine-evo/refs/heads/master/platform/xdg/org.nxengine.nxengine_evo.png
