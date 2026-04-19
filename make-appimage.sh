@@ -10,6 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export APPNAME="Cave Story NX-evo"
 export ICON=https://raw.githubusercontent.com/nxengine/nxengine-evo/refs/heads/master/platform/xdg/org.nxengine.nxengine_evo.png
 export DESKTOP=https://raw.githubusercontent.com/nxengine/nxengine-evo/refs/heads/master/platform/xdg/org.nxengine.nxengine_evo.desktop
+export STARTUPWMCLASS=nxengine-evo
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
